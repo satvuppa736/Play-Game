@@ -96,11 +96,12 @@ namespace Play_Game
 
             formGraphics.DrawRectangle(drawPen, 10, 80, 450, 50);
             formGraphics.FillRectangle(drawBrush, 10, 80, 450, 50);
-            formGraphics.DrawRectangle(drawPen, 10, 210, 270, 50);
-            formGraphics.FillRectangle(drawBrush, 10, 210, 270, 50);
-            formGraphics.DrawRectangle(drawPen, 440, 130, 50, 450);
-            formGraphics.FillRectangle(drawBrush, 440, 130, 50, 450);
+            formGraphics.DrawRectangle(drawPen, 0, 210, 270, 50);
+            formGraphics.FillRectangle(drawBrush, 0, 210, 270, 50);
+            formGraphics.DrawRectangle(drawPen, 410, 130, 50, 450);
+            formGraphics.FillRectangle(drawBrush, 410, 130, 50, 450);
 
+            //this is a temp change
         }
     }
 }

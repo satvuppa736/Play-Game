@@ -94,12 +94,342 @@ namespace Play_Game
             drawBrush = new SolidBrush(Color.Blue);
             drawPen = new Pen(Color.Blue);
 
-            formGraphics.DrawRectangle(drawPen, 10, 80, 450, 50);
-            formGraphics.FillRectangle(drawBrush, 10, 80, 450, 50);
+            formGraphics.DrawRectangle(drawPen, 0, 80, 460, 50);
+            formGraphics.FillRectangle(drawBrush, 0, 80, 460, 50);
             formGraphics.DrawRectangle(drawPen, 0, 210, 270, 50);
             formGraphics.FillRectangle(drawBrush, 0, 210, 270, 50);
             formGraphics.DrawRectangle(drawPen, 410, 130, 50, 450);
             formGraphics.FillRectangle(drawBrush, 410, 130, 50, 450);
+            formGraphics.DrawRectangle(drawPen, 270, 210, 50, 450);
+            formGraphics.FillRectangle(drawBrush, 270, 210, 50, 450);
+
+            drawPen = new Pen(Color.Yellow);
+            drawBrush = new SolidBrush(Color.Yellow);
+
+            formGraphics.DrawPie(drawPen, 20, 145, 50, 50, 30, 300);
+            formGraphics.FillPie(drawBrush, 20, 145, 50, 50, 30, 300);
+
+            Thread.Sleep(500);
+
+            formGraphics.Clear(Color.Black);
+
+            drawBrush = new SolidBrush(Color.Blue);
+            drawPen = new Pen(Color.Blue);
+
+            formGraphics.DrawRectangle(drawPen, 0, 80, 460, 50);
+            formGraphics.FillRectangle(drawBrush, 0, 80, 460, 50);
+            formGraphics.DrawRectangle(drawPen, 0, 210, 270, 50);
+            formGraphics.FillRectangle(drawBrush, 0, 210, 270, 50);
+            formGraphics.DrawRectangle(drawPen, 410, 130, 50, 450);
+            formGraphics.FillRectangle(drawBrush, 410, 130, 50, 450);
+            formGraphics.DrawRectangle(drawPen, 270, 210, 50, 450);
+            formGraphics.FillRectangle(drawBrush, 270, 210, 50, 450);
+
+            drawPen = new Pen(Color.Yellow);
+            drawBrush = new SolidBrush(Color.Yellow);
+
+            formGraphics.DrawPie(drawPen, 60, 145, 50, 50, 30, 360);
+            formGraphics.FillPie(drawBrush, 60, 145, 50, 50, 30, 360);
+
+            Thread.Sleep(500);
+
+            formGraphics.Clear(Color.Black);
+
+            drawBrush = new SolidBrush(Color.Blue);
+            drawPen = new Pen(Color.Blue);
+
+            formGraphics.DrawRectangle(drawPen, 0, 80, 460, 50);
+            formGraphics.FillRectangle(drawBrush, 0, 80, 460, 50);
+            formGraphics.DrawRectangle(drawPen, 0, 210, 270, 50);
+            formGraphics.FillRectangle(drawBrush, 0, 210, 270, 50);
+            formGraphics.DrawRectangle(drawPen, 410, 130, 50, 450);
+            formGraphics.FillRectangle(drawBrush, 410, 130, 50, 450);
+            formGraphics.DrawRectangle(drawPen, 270, 210, 50, 450);
+            formGraphics.FillRectangle(drawBrush, 270, 210, 50, 450);
+
+            drawPen = new Pen(Color.Yellow);
+            drawBrush = new SolidBrush(Color.Yellow);
+
+            formGraphics.DrawPie(drawPen, 100, 145, 50, 50, 30, 300);
+            formGraphics.FillPie(drawBrush, 100, 145, 50, 50, 30, 300);
+
+            Thread.Sleep(500);
+
+            formGraphics.Clear(Color.Black);
+
+            drawBrush = new SolidBrush(Color.Blue);
+            drawPen = new Pen(Color.Blue);
+
+            formGraphics.DrawRectangle(drawPen, 0, 80, 460, 50);
+            formGraphics.FillRectangle(drawBrush, 0, 80, 460, 50);
+            formGraphics.DrawRectangle(drawPen, 0, 210, 270, 50);
+            formGraphics.FillRectangle(drawBrush, 0, 210, 270, 50);
+            formGraphics.DrawRectangle(drawPen, 410, 130, 50, 450);
+            formGraphics.FillRectangle(drawBrush, 410, 130, 50, 450);
+            formGraphics.DrawRectangle(drawPen, 270, 210, 50, 450);
+            formGraphics.FillRectangle(drawBrush, 270, 210, 50, 450);
+
+            drawPen = new Pen(Color.Yellow);
+            drawBrush = new SolidBrush(Color.Yellow);
+
+            formGraphics.DrawPie(drawPen, 140, 145, 50, 50, 30, 360);
+            formGraphics.FillPie(drawBrush, 140, 145, 50, 50, 30, 360);
+
+            Thread.Sleep(500);
+
+            formGraphics.Clear(Color.Black);
+
+            drawBrush = new SolidBrush(Color.Blue);
+            drawPen = new Pen(Color.Blue);
+
+            formGraphics.DrawRectangle(drawPen, 0, 80, 460, 50);
+            formGraphics.FillRectangle(drawBrush, 0, 80, 460, 50);
+            formGraphics.DrawRectangle(drawPen, 0, 210, 270, 50);
+            formGraphics.FillRectangle(drawBrush, 0, 210, 270, 50);
+            formGraphics.DrawRectangle(drawPen, 410, 130, 50, 450);
+            formGraphics.FillRectangle(drawBrush, 410, 130, 50, 450);
+            formGraphics.DrawRectangle(drawPen, 270, 210, 50, 450);
+            formGraphics.FillRectangle(drawBrush, 270, 210, 50, 450);
+
+            drawPen = new Pen(Color.Yellow);
+            drawBrush = new SolidBrush(Color.Yellow);
+
+            formGraphics.DrawPie(drawPen, 180, 145, 50, 50, 30, 300);
+            formGraphics.FillPie(drawBrush, 180, 145, 50, 50, 30, 300);
+
+            Thread.Sleep(500);
+
+            formGraphics.Clear(Color.Black);
+
+            drawBrush = new SolidBrush(Color.Blue);
+            drawPen = new Pen(Color.Blue);
+
+            formGraphics.DrawRectangle(drawPen, 0, 80, 460, 50);
+            formGraphics.FillRectangle(drawBrush, 0, 80, 460, 50);
+            formGraphics.DrawRectangle(drawPen, 0, 210, 270, 50);
+            formGraphics.FillRectangle(drawBrush, 0, 210, 270, 50);
+            formGraphics.DrawRectangle(drawPen, 410, 130, 50, 450);
+            formGraphics.FillRectangle(drawBrush, 410, 130, 50, 450);
+            formGraphics.DrawRectangle(drawPen, 270, 210, 50, 450);
+            formGraphics.FillRectangle(drawBrush, 270, 210, 50, 450);
+
+            drawPen = new Pen(Color.Yellow);
+            drawBrush = new SolidBrush(Color.Yellow);
+
+            formGraphics.DrawPie(drawPen, 200, 145, 50, 50, 30, 360);
+            formGraphics.FillPie(drawBrush, 200, 145, 50, 50, 30, 360);
+
+            Thread.Sleep(500);
+
+
+            formGraphics.Clear(Color.Black);
+
+            drawBrush = new SolidBrush(Color.Blue);
+            drawPen = new Pen(Color.Blue);
+
+            formGraphics.DrawRectangle(drawPen, 0, 80, 460, 50);
+            formGraphics.FillRectangle(drawBrush, 0, 80, 460, 50);
+            formGraphics.DrawRectangle(drawPen, 0, 210, 270, 50);
+            formGraphics.FillRectangle(drawBrush, 0, 210, 270, 50);
+            formGraphics.DrawRectangle(drawPen, 410, 130, 50, 450);
+            formGraphics.FillRectangle(drawBrush, 410, 130, 50, 450);
+            formGraphics.DrawRectangle(drawPen, 270, 210, 50, 450);
+            formGraphics.FillRectangle(drawBrush, 270, 210, 50, 450);
+
+            drawPen = new Pen(Color.Yellow);
+            drawBrush = new SolidBrush(Color.Yellow);
+
+            formGraphics.DrawPie(drawPen, 220, 145, 50, 50, 30, 300);
+            formGraphics.FillPie(drawBrush, 220, 145, 50, 50, 30, 300);
+
+            Thread.Sleep(500);
+
+            formGraphics.Clear(Color.Black);
+
+            drawBrush = new SolidBrush(Color.Blue);
+            drawPen = new Pen(Color.Blue);
+
+            formGraphics.DrawRectangle(drawPen, 0, 80, 460, 50);
+            formGraphics.FillRectangle(drawBrush, 0, 80, 460, 50);
+            formGraphics.DrawRectangle(drawPen, 0, 210, 270, 50);
+            formGraphics.FillRectangle(drawBrush, 0, 210, 270, 50);
+            formGraphics.DrawRectangle(drawPen, 410, 130, 50, 450);
+            formGraphics.FillRectangle(drawBrush, 410, 130, 50, 450);
+            formGraphics.DrawRectangle(drawPen, 270, 210, 50, 450);
+            formGraphics.FillRectangle(drawBrush, 270, 210, 50, 450);
+
+            drawPen = new Pen(Color.Yellow);
+            drawBrush = new SolidBrush(Color.Yellow);
+
+            formGraphics.DrawPie(drawPen, 260, 145, 50, 50, 30, 360);
+            formGraphics.FillPie(drawBrush, 260, 145, 50, 50, 30, 360);
+
+            Thread.Sleep(500);
+            
+            //LOOP
+            
+            formGraphics.Clear(Color.Black);
+
+            drawBrush = new SolidBrush(Color.Blue);
+            drawPen = new Pen(Color.Blue);
+
+            formGraphics.DrawRectangle(drawPen, 0, 80, 460, 50);
+            formGraphics.FillRectangle(drawBrush, 0, 80, 460, 50);
+            formGraphics.DrawRectangle(drawPen, 0, 210, 270, 50);
+            formGraphics.FillRectangle(drawBrush, 0, 210, 270, 50);
+            formGraphics.DrawRectangle(drawPen, 410, 130, 50, 450);
+            formGraphics.FillRectangle(drawBrush, 410, 130, 50, 450);
+            formGraphics.DrawRectangle(drawPen, 270, 210, 50, 450);
+            formGraphics.FillRectangle(drawBrush, 270, 210, 50, 450);
+
+            drawPen = new Pen(Color.Yellow);
+            drawBrush = new SolidBrush(Color.Yellow);
+
+            formGraphics.DrawPie(drawPen, 300, 145, 50, 50, 30, 300);
+            formGraphics.FillPie(drawBrush, 300, 145, 50, 50, 30, 300);
+
+            Thread.Sleep(500);
+
+            formGraphics.Clear(Color.Black);
+
+            drawBrush = new SolidBrush(Color.Blue);
+            drawPen = new Pen(Color.Blue);
+
+            formGraphics.DrawRectangle(drawPen, 0, 80, 460, 50);
+            formGraphics.FillRectangle(drawBrush, 0, 80, 460, 50);
+            formGraphics.DrawRectangle(drawPen, 0, 210, 270, 50);
+            formGraphics.FillRectangle(drawBrush, 0, 210, 270, 50);
+            formGraphics.DrawRectangle(drawPen, 410, 130, 50, 450);
+            formGraphics.FillRectangle(drawBrush, 410, 130, 50, 450);
+            formGraphics.DrawRectangle(drawPen, 270, 210, 50, 450);
+            formGraphics.FillRectangle(drawBrush, 270, 210, 50, 450);
+
+            drawPen = new Pen(Color.Yellow);
+            drawBrush = new SolidBrush(Color.Yellow);
+
+            formGraphics.DrawPie(drawPen, 340, 145, 50, 50, 30, 360);
+            formGraphics.FillPie(drawBrush, 340, 145, 50, 50, 30, 360);
+
+            Thread.Sleep(500);
+
+            //Turn and go down (CHANGE Y AXIS ONLY)
+
+
+            formGraphics.Clear(Color.Black);
+
+            drawBrush = new SolidBrush(Color.Blue);
+            drawPen = new Pen(Color.Blue);
+
+            formGraphics.DrawRectangle(drawPen, 0, 80, 460, 50);
+            formGraphics.FillRectangle(drawBrush, 0, 80, 460, 50);
+            formGraphics.DrawRectangle(drawPen, 0, 210, 270, 50);
+            formGraphics.FillRectangle(drawBrush, 0, 210, 270, 50);
+            formGraphics.DrawRectangle(drawPen, 410, 130, 50, 450);
+            formGraphics.FillRectangle(drawBrush, 410, 130, 50, 450);
+            formGraphics.DrawRectangle(drawPen, 270, 210, 50, 450);
+            formGraphics.FillRectangle(drawBrush, 270, 210, 50, 450);
+
+            drawPen = new Pen(Color.Yellow);
+            drawBrush = new SolidBrush(Color.Yellow);
+
+            formGraphics.DrawPie(drawPen, 340, 160, 50, 50, 120, 300);
+            formGraphics.FillPie(drawBrush, 340, 160, 50, 50, 120, 300);
+
+            Thread.Sleep(500);
+
+            formGraphics.Clear(Color.Black);
+
+            drawBrush = new SolidBrush(Color.Blue);
+            drawPen = new Pen(Color.Blue);
+
+            formGraphics.DrawRectangle(drawPen, 0, 80, 460, 50);
+            formGraphics.FillRectangle(drawBrush, 0, 80, 460, 50);
+            formGraphics.DrawRectangle(drawPen, 0, 210, 270, 50);
+            formGraphics.FillRectangle(drawBrush, 0, 210, 270, 50);
+            formGraphics.DrawRectangle(drawPen, 410, 130, 50, 450);
+            formGraphics.FillRectangle(drawBrush, 410, 130, 50, 450);
+            formGraphics.DrawRectangle(drawPen, 270, 210, 50, 450);
+            formGraphics.FillRectangle(drawBrush, 270, 210, 50, 450);
+
+            drawPen = new Pen(Color.Yellow);
+            drawBrush = new SolidBrush(Color.Yellow);
+
+            formGraphics.DrawPie(drawPen, 340, 200, 50, 50, 30, 360);
+            formGraphics.FillPie(drawBrush, 340, 200, 50, 50, 30, 360);
+
+            Thread.Sleep(500);
+
+            //Loop CHANGE Y AXIS
+
+            formGraphics.Clear(Color.Black);
+
+            drawBrush = new SolidBrush(Color.Blue);
+            drawPen = new Pen(Color.Blue);
+
+            formGraphics.DrawRectangle(drawPen, 0, 80, 460, 50);
+            formGraphics.FillRectangle(drawBrush, 0, 80, 460, 50);
+            formGraphics.DrawRectangle(drawPen, 0, 210, 270, 50);
+            formGraphics.FillRectangle(drawBrush, 0, 210, 270, 50);
+            formGraphics.DrawRectangle(drawPen, 410, 130, 50, 450);
+            formGraphics.FillRectangle(drawBrush, 410, 130, 50, 450);
+            formGraphics.DrawRectangle(drawPen, 270, 210, 50, 450);
+            formGraphics.FillRectangle(drawBrush, 270, 210, 50, 450);
+
+            drawPen = new Pen(Color.Yellow);
+            drawBrush = new SolidBrush(Color.Yellow);
+
+            formGraphics.DrawPie(drawPen, 340, 240, 50, 50, 120, 300);
+            formGraphics.FillPie(drawBrush, 340, 240, 50, 50, 120, 300);
+
+            Thread.Sleep(500);
+
+            formGraphics.Clear(Color.Black);
+
+            drawBrush = new SolidBrush(Color.Blue);
+            drawPen = new Pen(Color.Blue);
+
+            formGraphics.DrawRectangle(drawPen, 0, 80, 460, 50);
+            formGraphics.FillRectangle(drawBrush, 0, 80, 460, 50);
+            formGraphics.DrawRectangle(drawPen, 0, 210, 270, 50);
+            formGraphics.FillRectangle(drawBrush, 0, 210, 270, 50);
+            formGraphics.DrawRectangle(drawPen, 410, 130, 50, 450);
+            formGraphics.FillRectangle(drawBrush, 410, 130, 50, 450);
+            formGraphics.DrawRectangle(drawPen, 270, 210, 50, 450);
+            formGraphics.FillRectangle(drawBrush, 270, 210, 50, 450);
+
+            drawPen = new Pen(Color.Yellow);
+            drawBrush = new SolidBrush(Color.Yellow);
+
+            formGraphics.DrawPie(drawPen, 340, 280, 50, 50, 30, 360);
+            formGraphics.FillPie(drawBrush, 340, 280, 50, 50, 30, 360);
+
+            Thread.Sleep(500);
+
+            //Loop CHANGE Y AXIS
+
+            formGraphics.Clear(Color.Black);
+
+            drawBrush = new SolidBrush(Color.Blue);
+            drawPen = new Pen(Color.Blue);
+
+            formGraphics.DrawRectangle(drawPen, 0, 80, 460, 50);
+            formGraphics.FillRectangle(drawBrush, 0, 80, 460, 50);
+            formGraphics.DrawRectangle(drawPen, 0, 210, 270, 50);
+            formGraphics.FillRectangle(drawBrush, 0, 210, 270, 50);
+            formGraphics.DrawRectangle(drawPen, 410, 130, 50, 450);
+            formGraphics.FillRectangle(drawBrush, 410, 130, 50, 450);
+            formGraphics.DrawRectangle(drawPen, 270, 210, 50, 450);
+            formGraphics.FillRectangle(drawBrush, 270, 210, 50, 450);
+
+            drawPen = new Pen(Color.Yellow);
+            drawBrush = new SolidBrush(Color.Yellow);
+
+            formGraphics.DrawPie(drawPen, 340, 320, 50, 50, 120, 300);
+            formGraphics.FillPie(drawBrush, 340, 320, 50, 50, 120, 300);
+
+            Thread.Sleep(500);
+
+            fg.DrawString.
 
         }
     }

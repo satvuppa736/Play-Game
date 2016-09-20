@@ -429,7 +429,10 @@ namespace Play_Game
 
             Thread.Sleep(500);
 
-            fg.DrawString.
+            drawFont  = new Font("OCR A Std", 25, FontStyle.Bold);
+            drawText = new SolidBrush(Color.Yellow);
+            fg.DrawString("GAME OVER", drawFont, drawText, 30, 300);
+
 
         }
     }
